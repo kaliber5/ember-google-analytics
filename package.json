@@ -1,9 +1,8 @@
 {
   "name": "ember-google-analytics",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.1.0",
+  "description": "Google Analytics tracking for your Ember.js App",
   "directories": {
-    "doc": "doc",
     "test": "tests"
   },
   "scripts": {
@@ -11,11 +10,14 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaliber5/ember-google-analytics.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Simon Ihmig",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -40,12 +42,22 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "ember-cli",
+    "google analytics",
+    "analytcis"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "broccoli-filter": "^1.2.3",
+    "ember-cli-babel": "^5.1.6",
+    "ember-getowner-polyfill": "^1.0.1"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
-  }
+  },
+  "main": "index.js",
+  "bugs": {
+    "url": "https://github.com/kaliber5/ember-google-analytics/issues"
+  },
+  "homepage": "https://github.com/kaliber5/ember-google-analytics"
 }

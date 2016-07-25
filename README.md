@@ -1,6 +1,8 @@
-# Ember-google-analytics
+# ember-google-analytics
 
-This README outlines the details of collaborating on this Ember addon.
+Google Analytics tracking for your Ember.js App
+
+[WIP] Documentation still missing
 
 ## Installation
 
